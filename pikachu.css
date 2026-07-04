@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1d1d1d;
+
+}
+
+.card{
+    width:900px;
+    height:550px;
+    display:flex;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.left{
+    width:50%;
+    background:#f5cf63;
+    padding:50px;
+    position:relative;
+}
+.right{
+    width:50%;
+    background:#f6f6f6;;
+    position:relative;
+}
+
+.pikachu{
+    position:absolute;
+    width:420px;
+
+    left:-80px;
+    top:60px;
+}
+
+h1{
+    font-size:70px;
+    margin:20px 0;
+
+}
+
+p{
+    width:300px;
+    line-height:28px;
+}
